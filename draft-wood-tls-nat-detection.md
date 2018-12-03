@@ -59,7 +59,7 @@ In practice, clients cannot detect NATs when establishing normal TLS connections
 This can be problematic for because clients cannot tell if their traffic can be linked via
 IP-layer information, such as a stable source address. As a result, clients do not know if
 privacy-driven connection migration policies, such as those prescribed by QUIC {{I-D.ietf-quic-transport}},
-provide value against a passive eavesdropper. Moreover, without knowledge of a NATs precense,
+provide value against a passive eavesdropper. Moreover, without knowledge of the presence of a NAT,
 it is unclear if using TLS over a connection-oriented protocol such as TCP introduces any
 privacy regression with respect to connectionless protocols, such as UDP.
 
@@ -68,8 +68,8 @@ hypothesized that the latter is superior from a privacy perspective due to the l
 persistent identifiers. However, if one can show that NATs are infrequently used for encrypted
 DNS, then using a connection-oriented protocol such as DoT does not induce a privacy regression.
 
-This document describes a new TLS extension for NAT detection in TLS 1.3 {{RFC8446}}. It requires supporting
-servers to send the perceived client address to clients. The latter may then confirm whether or
+This document describes a new TLS extension for NAT detection in TLS 1.3 {{RFC8446}}. It requires
+servers that support this extension to send the perceived client address to clients. The latter may then confirm whether or
 not this representation matches their known public address and, if so, conclude that no NAT or
 on-path proxy was involved in the communication. Clients may also optionally send an obfuscated
 version of their public IP address to servers, allowing the latter to similarly detect the presence
