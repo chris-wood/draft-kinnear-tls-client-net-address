@@ -43,14 +43,14 @@ normative:
 This document describes a TLS extension that may be used to detect the presence
 of an on-path NAT or similar proxy between client and server of a TLS connection.
 A motivating use case for this extension is reliable NAT detection measurements.
-Secondary use cases include client- and server-side detection of NATs for the
+Secondary use cases include client-side and server-side detection of NATs for the
 purpose of informed QUIC connection migration policies.
 
 --- middle
 
 # Introduction
 
-NATs and other proxies may increase TLS communication privacy by masking the true
+NATs and other proxies may improve TLS communication privacy by masking the true
 IP address of clients in a session. Modulo other cleartext signals such as session
 identifiers, the anonymity set of a connection passing through a NAT is proportional
 to the number of clients serviced by said NAT.
