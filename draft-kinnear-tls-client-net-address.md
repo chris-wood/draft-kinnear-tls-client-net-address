@@ -1,7 +1,7 @@
 ---
 title: TLS Client Network Address Extension
 abbrev: TLS Client Network Address Extension
-docname: draft-wood-tls-client-net-address-latest
+docname: draft-kinnear-tls-client-net-address-latest
 date:
 category: info
 
@@ -12,6 +12,14 @@ stand_alone: yes
 pi: [toc, sortrefs, symrefs]
 
 author:
+  -
+    ins: E. Kinnear
+    name: Eric Kinnear
+    org: Apple Inc.
+    street: One Apple Park Way
+    city: Cupertino, California 95014
+    country: United States of America
+    email: ekinnear@apple.com
   -
     ins: T. Pauly
     name: Tommy Pauly
