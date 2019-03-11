@@ -1,10 +1,10 @@
-# TLS NAT De ec ion Ex ension
+# TLS Client Network Address Extension
 
-This is the working area for the individual Internet-Draft, "TLS NAT De ec ion Ex ension".
+This is the working area for the individual Internet-Draft, "TLS Client Network Address Extension".
 
-* [Editor's Copy](https://chris-wood.github.io/draft-wood-tls-nat-detection/#go.draft-wood-tls-nat-detection.html)
-* [Individual Draft](https://tools.ietf.org/html/draft-wood-tls-nat-detection)
-* [Compare Editor's Copy to Individual Draft](https://chris-wood.github.io/draft-wood-tls-nat-detection/#go.draft-wood-tls-nat-detection.diff)
+* [Editor's Copy](https://chris-wood.github.io/draft-kinnear-tls-client-net-address/#go.draft-kinnear-tls-client-net-address.html)
+* [Individual Draft](https://tools.ietf.org/html/draft-kinnear-tls-client-net-address)
+* [Compare Editor's Copy to Individual Draft](https://chris-wood.github.io/draft-kinnear-tls-client-net-address/#go.draft-kinnear-tls-client-net-address.diff)
 
 ## Building the Draft
 
@@ -21,4 +21,4 @@ This requires that you have the necessary software installed.  See
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/chris-wood/draft-wood-tls-nat-detection/blob/master/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/chris-wood/draft-kinnear-tls-client-net-address/blob/master/CONTRIBUTING.md).
